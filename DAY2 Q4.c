@@ -1,5 +1,5 @@
   #include <stdio.h>
-#define PI 3.14159   // defining constant value of π
+#define PI 3.14159  
 
 int main() {
     float radius, area, circumference;
@@ -11,4 +11,5 @@ int main() {
     printf("Circumference of Circle = %.2f\n", circumference);
 
     return 0;
+
 }
