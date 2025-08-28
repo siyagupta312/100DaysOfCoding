@@ -12,11 +12,11 @@ int main() {
     difference = num1 - num2;
     product = num1 * num2;
      if (num2 != 0) {
-        quotient = (float) num1 / num2;  // typecast to float for decimal division
+        quotient = (float) num1 / num2;  
         printf("Sum: %d\n", sum);
         printf("Difference: %d\n", difference);
         printf("Product: %d\n", product);
-        printf("Quotient: %.2f\n", quotient);  // show 2 decimal places
+        printf("Quotient: %.2f\n", quotient);
     } else {
         printf("Sum: %d\n", sum);
         printf("Difference: %d\n", difference);
@@ -26,3 +26,4 @@ int main() {
     
     return 0;
 }
+
